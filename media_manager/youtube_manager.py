@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
 
-from .packages.audio_editor import AudioEditor
-from .packages.mixer import MixerPlay
+from .audio_editor import AudioEditor
+from .mixer import MixerPlay
 from pytube import YouTube
 
 

@@ -1,4 +1,4 @@
 /env
 /tests
-_*
+__pycache__
 .mypy*
