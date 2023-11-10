@@ -2,3 +2,5 @@
 /tests
 __pycache__
 .mypy*
+*.mp3
+*.mp4

@@ -1,5 +1,20 @@
-from player_music import PlayerMusic
+# from media_manager.player_music import PlayerMusic
+import os
+from pathlib import Path
 
-search_term = input("Digite o termo para tocar o áudio:")
-player = PlayerMusic()
-player.search(search_term).play()
+from media_manager import *
+
+os.chdir(Path(__file__).parent)
+
+
+if __name__ == "__main__":
+    youtube_player = PlayerMusic()
+    youtube_downloader = YoutubeDownloader()
+    youtube_search = YoutubeSearch()
+    mixer = MixerPlay()
+    play = YoutubePlay()
+
+    pesquisa = "preferência kayblack"
+
+    youtube_player.play(pesquisa)
+
