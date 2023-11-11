@@ -14,7 +14,7 @@ if __name__ == "__main__":
     mixer = MixerPlay()
     play = YoutubePlay()
 
-    pesquisa = "preferência kayblack"
+    pesquisa = "viva la vida"
 
     youtube_player.play(pesquisa)
 
